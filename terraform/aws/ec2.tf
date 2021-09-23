@@ -1,3 +1,5 @@
+# comment for push 
+
 resource "aws_instance" "web_host" {
   # ec2 have plain text secrets in user data
   ami           = "${var.ami}"
