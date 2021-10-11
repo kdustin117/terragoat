@@ -1,4 +1,5 @@
 resource "aws_s3_bucket" "data" {
+  # adding Sarif Demo
   # bucket is public
   # bucket is not encrypted
   # bucket does not have access logs
